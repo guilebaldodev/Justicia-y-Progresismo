@@ -19,3 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.customInput {
+  @apply p-4 mb-4 border-2   border-gray-200 rounded-sm focus:outline-none ;
+}
