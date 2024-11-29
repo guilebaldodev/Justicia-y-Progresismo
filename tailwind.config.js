@@ -18,11 +18,12 @@ module.exports = {
       },
 
       screens: {
-        'xs': '400px',  
-        'sm': '640px',      
-        'md': '768px',
-        'custom-lg': '950px',  
-        'lg': '1024px',
+        'xs': { 'max': '400px' },        // Pantallas menores a 400px
+        'sm': { 'max': '640px' },        // Pantallas menores a 640px
+        'custom-sm': { 'max': '540px' },        // Pantallas menores a 640px
+        'md': { 'max': '768px' },        // Pantallas menores a 768px
+        'custom-lg': { 'max': '950px' }, // Pantallas menores a 950px
+        'lg': { 'max': '1024px' },       // Pantallas menores a 1024px
       },
       
     },

@@ -1,27 +1,27 @@
 const Form = () => {
     return ( <>
-                   <form className="pt-8">
+<form className="pt-8">
 
-<div className="flex justify-between gap-4">
-  <div className="flex flex-col w-[50%]">
+<div className="flex justify-between  sm:justify-end sm:flex-col">
+  <div className="flex flex-col w-[48%] sm:w-[100%]">
   <label htmlFor=""className="font-bold">Nombre</label>
   <input className="customInput h-[36px]" type="text"  />
   </div>
 
-  <div  className="flex flex-col w-[50%]">
+  <div  className="flex flex-col w-[48%] sm:w-[100%]">
   <label htmlFor="" className="font-bold">Apellidos</label>
   <input className="customInput h-[36px]" type="text"  />
   </div>
 </div>
 
 
-<div className="flex justify-between gap-4">
-  <div className="flex flex-col w-[50%]">
+<div className="flex justify-between   sm:flex-col">
+  <div className="flex flex-col w-[48%] sm:w-[100%]">
   <label htmlFor=""className="font-bold">Correo</label>
   <input className="customInput h-[36px]" type="text"  />
   </div>
 
-  <div  className="flex flex-col w-[50%]">
+  <div  className="flex flex-col w-[48%] sm:w-[100%]">
   <label htmlFor="" className="font-bold">Telefono</label>
   <input className="customInput h-[36px]" type="text"  />
   </div>
