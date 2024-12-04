@@ -46,7 +46,7 @@ const Footer = () => {
 
             <div className="md:w-[50%] custom-sm:mt-8 custom-sm:w-[80%] mx-auto xs:!w-[100%]">
 
-            <h4 className="text-xl">Menu</h4>
+            <h4 className="text-xl">Menú</h4>
             <ul className="pt-6 flex flex-col gap-y-2">
                 <li >
           
@@ -54,7 +54,7 @@ const Footer = () => {
 
                 <li>
                     <Link href={"#areas"}>
-                        Areas de experiencia
+                        Áreas de experiencia
                     </Link>
                 </li>
 

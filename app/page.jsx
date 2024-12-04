@@ -14,9 +14,9 @@ export default function Home() {
       <main >
         <div id="areas" className="pt-12 scroll-mt-16">
           <div className="text-center">
-          <h4 className="text-gray-500 text-xl font-bold md:text-lg">Que hago</h4>
+          <h4 className="text-gray-500 text-xl font-bold md:text-lg">Qué hago</h4>
           <h2 className="text-2xl font-bold md:text-xl md:w-[90%] mx-auto xs:w-[80%]">
-            Pasion por la Justica, Areas de Especializacion
+            Pasión por la Justicia, Áreas de Especialización
           </h2>
           </div>
 
@@ -25,7 +25,6 @@ export default function Home() {
             sm:!grid-cols-1 
           ">
               {areasDePractica && areasDePractica.map((area)=>
-
                 <div className="p-6 border-2 border-gray-50 shadow">
                   <Image src={area.img} className="pb-1" alt="justice icon" width={60} height={60}></Image>
 
@@ -34,13 +33,8 @@ export default function Home() {
                     <p>{area.description}</p>
 
                 </div>
-
-
               )}
           </div>
-
-
-
         </div>
 
         <div id="acerca" className="bg-customGrey scroll-mt-16">
@@ -52,26 +46,19 @@ export default function Home() {
 
               <div className="w-[60%] flex flex-col md:w-[90%]">
 
-              <h4 className="text-gray-500 text-lg font-bold md:pt-6 ">Acerca de mi</h4>
+              <h4 className="text-gray-500 text-lg font-bold md:pt-6 ">Acerca de mí</h4>
 
                 <h2 className="text-3xl font-bold pb-4 custom-lg:text-2xl">Un Abogado Comprometido con tus Necesidades</h2>
                 <p className="pb-8 text-lg custom-lg:text-base">
                 Mi práctica se centra en brindar asesoría jurídica de alta calidad, siempre enfocándome en los intereses y derechos de mis clientes. Cada caso es único y merece una atención dedicada para encontrar las mejores estrategias legales.
                 </p>
 
-                <Link href="#consulta" className="bg-customBlu text-white text-lg px-8 py-3 rounded-md max-w-max">Contactame</Link>
-
-
+                <Link href="#consulta" className="bg-customBlu text-white text-lg px-8 py-3 rounded-md max-w-max">Contáctame</Link>
               </div>
 
               <div className="w-[50%] flex justify-end md:w-[80%] md:justify-start">
                 <Image src={"/img/me.jpeg"} style={{objectFit:"cover",width:"100%",height:"auto",maxWidth:"400px"}} width={400} height={600}></Image>
-
-
               </div>
-              
-              
-
         </div>
 
         </div>
@@ -83,7 +70,7 @@ export default function Home() {
           <div className="text-center">
           <h4 className="text-white text-xl custom-lg:text-lg ">Opiniones</h4>
           <h2 className="text-3xl font-bold pt-2 text-white custom-lg:text-2xl sm:!text-xl">
-            Lo que dicen los clientes de mi
+            Lo que dicen los clientes sobre mí
           </h2>
           </div>
 
@@ -105,6 +92,7 @@ export default function Home() {
 
                   </div>
                 </>)
+
               }
           </div>
 
@@ -117,7 +105,7 @@ export default function Home() {
 
             <div id="consulta" className="py-10 w-[80%] mx-auto custom-lg:w-[90%] scroll-mt-16">
 
-              <h2 className="text-4xl font-bold text-center custom-lg:text-3xl sm:!text-2xl">Contactame</h2>
+              <h2 className="text-4xl font-bold text-center custom-lg:text-3xl sm:!text-2xl">Contáctame</h2>
 
               <div className="flex gap-8 sm:flex-col">
 

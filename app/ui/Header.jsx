@@ -45,7 +45,7 @@ const Header = () => {
 
 
             <div className="flex space-x-4 items-center sm:hidden">
-                <Link href="#areas">Areas de Experiencia</Link>
+                <Link href="#areas">Áreas de Experiencia</Link>
                 <Link className="bg-customBronw px-4 py-1.5 rounded-sm" href="#consulta">Consulta</Link>
             </div>
 
@@ -87,7 +87,7 @@ const Header = () => {
 
                 <div className="flex p-4 mt-3 gap-4 xs:flex-col" >
 
-                <Link href="#consulta" className="bg-customBronw font-bold  text-lg px-4 py-2 rounded-sm" >Contactame</Link>
+                <Link href="#consulta" className="bg-customBronw font-bold  text-lg px-4 py-2 rounded-sm" >Contáctame</Link>
                 
                 <div className="flex items-center space-x-2">
                     <Image src={"/icons/phone.png"} alt="phone icon" width={30} height={10}></Image>
