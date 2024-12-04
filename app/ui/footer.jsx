@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
     return ( 
     <>
-        <footer className="bg-customBlu text-white p-4">
+        <footer className="bg-customBlue text-white p-4">
 
         <div className="flex gap-x-4 flex-col items-center  mx-auto">
             
@@ -53,19 +53,19 @@ const Footer = () => {
                 </li>
 
                 <li>
-                    <Link href={""}>
+                    <Link href={"#areas"}>
                         Areas de experiencia
                     </Link>
                 </li>
 
                 <li>
-                    <Link href={""}>
+                    <Link href={"#testimonios"}>
                         Testimonios
                     </Link>
                 </li>
 
                 <li>
-                    <Link href={""}>
+                    <Link href={"#acerca"}>
                         Acerca de mí
                     </Link>
                 </li>

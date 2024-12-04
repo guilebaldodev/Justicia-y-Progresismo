@@ -13,7 +13,8 @@ module.exports = {
         customBlue: '#1F3044',
         customBronw:"#B69D73",
         customBlu:"#173860",
-        customGrey:"#F1F4F6"
+        customGrey:"#F1F4F6",
+        customGreen:"#06CF9C"
 
       },
 

@@ -11,8 +11,8 @@ export default function Home() {
     <>
     <WhatsAppButton></WhatsAppButton>
       <Header></Header>
-      <main>
-        <div className="pt-12">
+      <main >
+        <div id="areas" className="pt-12 scroll-mt-16">
           <div className="text-center">
           <h4 className="text-gray-500 text-xl font-bold md:text-lg">Que hago</h4>
           <h2 className="text-2xl font-bold md:text-xl md:w-[90%] mx-auto xs:w-[80%]">
@@ -43,7 +43,7 @@ export default function Home() {
 
         </div>
 
-        <div className="bg-customGrey">
+        <div id="acerca" className="bg-customGrey scroll-mt-16">
 
         <div className="pt-10 pb-12 w-[75%] mx-auto gap-x-4 flex items-center
         custom-lg:w-[85%]
@@ -59,7 +59,7 @@ export default function Home() {
                 Mi práctica se centra en brindar asesoría jurídica de alta calidad, siempre enfocándome en los intereses y derechos de mis clientes. Cada caso es único y merece una atención dedicada para encontrar las mejores estrategias legales.
                 </p>
 
-                <button className="bg-customBlu text-white text-lg px-8 py-3 rounded-md max-w-max" href="#inicio">Contactame</button>
+                <Link href="#consulta" className="bg-customBlu text-white text-lg px-8 py-3 rounded-md max-w-max">Contactame</Link>
 
 
               </div>
@@ -78,7 +78,7 @@ export default function Home() {
 
         {/*  Testimonials*/}
 
-          <div className="bg-customBlue p-8">
+          <div id="testimonios" className="bg-customBlue p-8 scroll-mt-16">
 
           <div className="text-center">
           <h4 className="text-white text-xl custom-lg:text-lg ">Opiniones</h4>
@@ -115,7 +115,7 @@ export default function Home() {
 
             {/* Contacto */}
 
-            <div className="py-10 w-[80%] mx-auto custom-lg:w-[90%]">
+            <div id="consulta" className="py-10 w-[80%] mx-auto custom-lg:w-[90%] scroll-mt-16">
 
               <h2 className="text-4xl font-bold text-center custom-lg:text-3xl sm:!text-2xl">Contactame</h2>
 

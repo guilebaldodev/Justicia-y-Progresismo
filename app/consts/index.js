@@ -50,19 +50,19 @@ export const areasDePractica = [
 export const testimonios = [
         {
             nombre: "Carlos Mendoza",
-            comentario: "La verdad es que al principio no sabía a quién acudir, pero este abogado me explicó todo de manera clara y siempre estuvo pendiente de mi caso. ¡100% recomendable! Me ayudó con el tema de mi divorcio y me sentí muy acompañado todo el proceso."
+            comentario: "La verdad es que al principio no sabía a quién acudir, pero este abogado me explicó todo de manera clara y siempre estuvo pendiente de mi caso. Me ayudó con el tema de mi divorcio y me sentí muy acompañado todo el proceso."
         },
         {
             nombre: "Ana García",
-            comentario: "Tuve un problema con pensiones alimenticias y no sabía por dónde empezar. Este abogado me ayudó a entender mis derechos y cómo podía defenderme. Siempre estuvo disponible cuando lo necesité. ¡Estoy muy agradecida!"
+            comentario: "Tuve un problema con pensiones alimenticias y no sabía por dónde empezar. Este abogado me ayudó a entender mis derechos y cómo podía defenderme. Siempre estuvo disponible cuando lo necesité."
         },
         {
             nombre: "Luis Hernández",
-            comentario: "Mi empresa necesitaba ayuda para crear unos contratos, y me recomendaron a este abogado. Fue súper claro y profesional, además me dio algunos consejos que ni imaginaba. ¡Gran servicio!"
+            comentario: "Mi empresa necesitaba ayuda para crear unos contratos, y me recomendaron a este abogado, además me dio algunos consejos que ni imaginaba."
         },
         {
             nombre: "Sofía Pérez",
-            comentario: "Recibí ayuda con una sucesión familiar, algo complicado, pero este abogado hizo todo mucho más fácil. Me sentí tranquila durante todo el proceso. ¡Gracias por todo el apoyo!"
+            comentario: "Recibí ayuda con una sucesión familiar, algo complicado, pero este abogado hizo todo mucho más fácil. Me sentí tranquila durante todo el proceso."
         },
         {
             nombre: "Roberto Torres",
@@ -70,7 +70,7 @@ export const testimonios = [
         },
         {
             nombre: "Verónica Martínez",
-            comentario: "Mi caso de guarda y custodia estaba siendo un lío, pero con la asesoría de este abogado todo salió bien. Me ayudó a entender las opciones y me guió en todo momento. ¡Sin duda lo recomendaría a cualquiera!"
+            comentario: "Mi caso de guarda y custodia estaba siendo un problemon, pero con la asesoría de este abogado todo salió bien. Me ayudó a entender las opciones y me guió en todo momento."
         }
 ];
 
