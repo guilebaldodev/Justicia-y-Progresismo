@@ -1,22 +1,29 @@
 export const areasDePractica = [
         {
             title: "Divorcios",
-            description: "Procesos legales enfocados en divorcios, incluyendo modalidades como administrativo, voluntario e incausado."   
+            description: "Juicio de Divorcio Voluntario, Incausado o Administrativo, pronto y eficaz, que incluye la división de bienes, pensión alimenticia y guarda y custodia de los menores, en caso de haber."   
 ,           img:"/icons/divorce.png"
         },
+
+
         {
-            title: "Pensiones Alimenticias",
-            description: "Asistencia jurídica para garantizar el cumplimiento de las obligaciones alimenticias establecidas por la ley."
+            title: "Contratos Legales",
+            description: "Elaboración y revisión de contratos de todo tipo para proteger los intereses de las partes involucradas, así como Juicios para el Cumplimiento de Contratos."
+,        img:"/icons/contract.png"
+        },
+        {
+            title: "Usucapión",
+            description: "Juicio para adjudicarte tu casa, en caso de haberla adquirido sin escrituras públicas."
 ,        img:"/icons/children.png"
         },
         {
             title: "Sucesiones",
-            description: "Gestión de trámites relacionados con herencias, ya sea con o sin testamento."
+            description: "Juicios Sucesorios, herencias, con o sin testamento."
 ,        img:"/icons/testament.png"
         },
         {
             title: "Guarda y Custodia",
-            description: "Resolución de casos relacionados con la guarda y custodia de menores, asegurando el bienestar de las partes involucradas."
+            description: "Juicio de Guarda y Custodia, siempre asegurando el bienestar del menor de edad."
 ,        img:"/icons/family.png"
         },
         {
@@ -29,11 +36,7 @@ export const areasDePractica = [
             description: "Defensa de derechos laborales frente a despidos que no cumplen con los fundamentos legales establecidos."
 ,        img:"/icons/fired.png"
         },
-        {
-            title: "Contratos Legales",
-            description: "Elaboración y revisión de contratos de todo tipo para proteger los intereses de las partes involucradas."
-,        img:"/icons/contract.png"
-        },
+
         {
             title: "Requerimiento de Pago",
             description: "Procedimientos enfocados en la recuperación de pagos pendientes de manera efectiva y legal."

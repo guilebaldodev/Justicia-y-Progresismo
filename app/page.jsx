@@ -16,7 +16,7 @@ export default function Home() {
           <div className="text-center">
           <h4 className="text-gray-500 text-xl font-bold md:text-lg">¿Qué hago?</h4>
           <h2 className="text-2xl font-bold md:text-xl md:w-[90%] mx-auto xs:w-[80%]">
-            Pasión por la Justicia. Áreas de Especialización:
+            Áreas de Especialización:
           </h2>
           </div>
 
@@ -50,7 +50,7 @@ export default function Home() {
 
                 <h2 className="text-3xl font-bold pb-4 custom-lg:text-2xl">Un Abogado Comprometido con tus Necesidades</h2>
                 <p className="pb-8 text-lg custom-lg:text-base">
-                Mi práctica se centra en brindar asesoría jurídica de alta calidad, siempre enfocándome en los intereses y derechos de mis clientes. Cada caso es único y merece una atención dedicada para encontrar las mejores estrategias legales.
+                Mi práctica se centra en brindar asesoría y representación jurídica de alta calidad, siempre enfocándome en los intereses y derechos de mis clientes. Cada caso es único y merece una atención dedicada para encontrar las mejores estrategias legales.
 
                 </p>
 

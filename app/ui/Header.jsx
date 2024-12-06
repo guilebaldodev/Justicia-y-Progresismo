@@ -83,7 +83,7 @@ const Header = () => {
                 xs:!text-2xl
                 ">Servicios Jurídicos: Justicia y Progresismo</h1>
                 <p className="p-4">
-                Cuento con experiencia en derecho familiar, civil, mercantil, laboral y amparos. Ubicado en Acapulco, mi compromiso es ofrecer asesoría legal personalizada, siempre enfocado en garantizar la justicia y el progreso en cada caso.                
+                Cuento con conocimientos en derecho familiar, civil, mercantil, laboral y amparos. Ubicado en Acapulco, mi compromiso es ofrecer asesoría legal personalizada, siempre enfocado en garantizar la justicia y el progreso en cada caso.                
                 
                 <br />
                 <br />
