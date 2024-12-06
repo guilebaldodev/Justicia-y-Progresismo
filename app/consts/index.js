@@ -49,29 +49,32 @@ export const areasDePractica = [
 
 export const testimonios = [
         {
-            nombre: "Carlos Mendoza",
-            comentario: "La verdad es que al principio no sabía a quién acudir, pero este abogado me explicó todo de manera clara y siempre estuvo pendiente de mi caso. Me ayudó con el tema de mi divorcio y me sentí muy acompañado todo el proceso."
+            nombre: "Enrique A",
+            comentario: " Es un joven atento y dedicado. Me ayudó con mi problema legal con mi patrón. No me estaban respetando mi horario ni las horas extras que debían de pagarme. Se estaba volviendo explotación. El Lic. me auxilió mucho para conciliar, para que quedara ahí y no se fuera hasta juicio."
         },
         {
-            nombre: "Ana García",
-            comentario: "Tuve un problema con pensiones alimenticias y no sabía por dónde empezar. Este abogado me ayudó a entender mis derechos y cómo podía defenderme. Siempre estuvo disponible cuando lo necesité."
-        },
-        {
-            nombre: "Luis Hernández",
-            comentario: "Mi empresa necesitaba ayuda para crear unos contratos, y me recomendaron a este abogado, además me dio algunos consejos que ni imaginaba."
-        },
-        {
-            nombre: "Sofía Pérez",
-            comentario: "Recibí ayuda con una sucesión familiar, algo complicado, pero este abogado hizo todo mucho más fácil. Me sentí tranquila durante todo el proceso."
-        },
-        {
-            nombre: "Roberto Torres",
-            comentario: "Tuve un problema laboral y no sabía cómo proceder, pero con la ayuda de este abogado, todo se solucionó rápidamente. Siempre estuvo al tanto de cada detalle y me asesoró de manera muy clara."
-        },
-        {
-            nombre: "Verónica Martínez",
-            comentario: "Mi caso de guarda y custodia estaba siendo un problemon, pero con la asesoría de este abogado todo salió bien. Me ayudó a entender las opciones y me guió en todo momento."
+            nombre:"Isaias Gonzaga",
+            comentario:"Es muy atento. Hace poco me llevó a cabo el servicio de unos contratos. También, sabe llevar el juicio de cumplimiento de contrato, por si más adelante les surge algo."
         }
+        ,{
+            nombre: "Jenny",
+            comentario: "Me asesoró para tener la patria potestad de mi hija. Su papá me la quería quitar, pero el Lic. me asesoró para que se quedara conmigo."
+        },
+        {
+            nombre: "Yoatzin Tapia",
+            comentario: "Es un buen abogado. Otorga asesorías muy eficaces. Divorció a un familiar y asesoró a una amiga sobre la pensión para su niño."
+        },
+
+        {
+            nombre: "Anónimo",
+            comentario: "Me adjudicó la casa de mis padres sin testamento. Tengo hermanos en otro país y aún así el Lic. logró que el juicio se llevara a cabo."
+        },
+        {
+            nombre: "Anónimo",
+            comentario: "Me divorció de manera rápida y efectiva. Es muy atento."
+        },
+
+
 ];
 
 export const footerOptions=[

@@ -14,9 +14,9 @@ export default function Home() {
       <main >
         <div id="areas" className="pt-12 scroll-mt-16">
           <div className="text-center">
-          <h4 className="text-gray-500 text-xl font-bold md:text-lg">Qué hago</h4>
+          <h4 className="text-gray-500 text-xl font-bold md:text-lg">¿Qué hago?</h4>
           <h2 className="text-2xl font-bold md:text-xl md:w-[90%] mx-auto xs:w-[80%]">
-            Pasión por la Justicia, Áreas de Especialización
+            Pasión por la Justicia. Áreas de Especialización:
           </h2>
           </div>
 
@@ -51,13 +51,14 @@ export default function Home() {
                 <h2 className="text-3xl font-bold pb-4 custom-lg:text-2xl">Un Abogado Comprometido con tus Necesidades</h2>
                 <p className="pb-8 text-lg custom-lg:text-base">
                 Mi práctica se centra en brindar asesoría jurídica de alta calidad, siempre enfocándome en los intereses y derechos de mis clientes. Cada caso es único y merece una atención dedicada para encontrar las mejores estrategias legales.
+
                 </p>
 
                 <Link href="#consulta" className="bg-customBlu text-white text-lg px-8 py-3 rounded-md max-w-max">Contáctame</Link>
               </div>
 
               <div className="w-[50%] flex justify-end md:w-[80%] md:justify-start">
-                <Image src={"/img/me.jpeg"} style={{objectFit:"cover",width:"100%",height:"auto",maxWidth:"400px"}} width={400} height={600}></Image>
+                <Image src={"/img/profile2.jpeg"} style={{objectFit:"cover",width:"auto",height:"auto",maxWidth:"px",maxHeight:"500px"}} width={400} height={600}></Image>
               </div>
         </div>
 

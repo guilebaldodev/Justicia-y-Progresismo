@@ -71,7 +71,7 @@ const Header = () => {
                 xs:w[100%]
             ">
                 {/* <Image src={"/img/pavel.png"} style={{height:"80%",width:"auto"}} width={100} height={100}></Image> */}
-                <Image src={"/img/pavel5.png"} style={{objectFit:"cover",width:"auto",height:"100%"}} width={500} height={500}></Image>
+                <Image src={"/img/me.png"} style={{objectFit:"cover",width:"auto",height:"100%",maxHeight:"480px"}} width={500} height={500}></Image>
                 {/* <Image src={"/img/small.jpeg"} style={{objectFit:"cover",width:"auto",height:"100%"}} width={500} height={500}></Image> */}
             </div>
 
@@ -81,10 +81,15 @@ const Header = () => {
                 custom-lg:text-4xl
                 sm:!text-3xl
                 xs:!text-2xl
-                ">Servicios Jurídicos Justicia y Progresismo</h1>
+                ">Servicios Jurídicos: Justicia y Progresismo</h1>
                 <p className="p-4">
-                Cuento con amplia experiencia en derecho familiar, civil, mercantil, laboral y amparos. Ubicado en Acapulco, mi compromiso es ofrecer asesoría legal personalizada, siempre enfocado en garantizar la justicia y el progreso en cada caso                </p>
-
+                Cuento con experiencia en derecho familiar, civil, mercantil, laboral y amparos. Ubicado en Acapulco, mi compromiso es ofrecer asesoría legal personalizada, siempre enfocado en garantizar la justicia y el progreso en cada caso.                
+                
+                <br />
+                <br />
+                <strong>Cédula Profesional:</strong> 13582076.
+                </p>
+    
                 <div className="flex p-4 mt-3 gap-4 xs:flex-col" >
 
                 <Link href="#consulta" className="bg-customBronw font-bold  text-lg px-4 py-2 rounded-sm" >Contáctame</Link>

@@ -7,7 +7,6 @@ const WhatsAppButton = () => {
   const whatsAppURL = `https://wa.me/${process.env.PHONE_NUMBER}?text=${message}`;
 
 
-  console.log(whatsAppURL)
   return (
     <Link
       href={whatsAppURL}
