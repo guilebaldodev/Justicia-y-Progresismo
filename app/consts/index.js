@@ -14,7 +14,7 @@ export const areasDePractica = [
         {
             title: "Usucapión",
             description: "Juicio para adjudicarte tu casa, en caso de haberla adquirido sin escrituras públicas."
-,        img:"/icons/children.png"
+,        img:"/icons/house.png"
         },
         {
             title: "Sucesiones",
